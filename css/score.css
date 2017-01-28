@@ -1,0 +1,181 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: "华文行楷";
+	padding: 0;
+	margin: 0;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	background-color: #F3F3F3;
+}
+.personInfo{
+	width: 100%;
+	height: 8rem;
+	background-color: #666;
+}
+.personPhoto{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	height: 8rem;
+	margin-left: 0.5rem;
+}
+.personIntr{
+	position: relative;
+	display: inline-block;
+	width: 70%;
+	height: 8rem;
+}
+#personImg{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	margin-top: 0.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+}
+#personImg img{
+	width: 100%;
+	height: 100%;
+}
+#exit{
+	position: absolute;
+	width: 3.5rem;
+	height: 1.5rem;
+	margin-top: 6rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#exit button{
+	width: 100%;
+	height: 100%;
+	font-family: "幼圆";
+	font-size: 1rem;
+	color: #000;
+	background-color: #ffffff;
+	border-style: none;
+	border-radius: 1rem;
+}
+#box{
+	position: absolute;
+	width: 90%;
+	height: 3rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+}
+#box li{
+	width: 90%;
+	list-style: none;
+	padding-top: 0.3rem;
+	color: #ffffff;
+}
+#list_1{
+	float: left;
+	width: 48%;
+	height: 100%;
+	margin-right: 0.3rem;
+}
+#list_2{
+	float: left;
+	width: 48%;
+	height: 100%;
+}
+.selectType{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+}
+#typeChoice{
+	position: absolute;
+	width: 80%;
+	height: 1.3rem;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+#typeChoice li{
+	float: left;
+	list-style: none;
+	font-family: "幼圆";
+	width: 33%;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.selectTerm{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+}
+#termChoice{
+	position: absolute;
+	width: 14rem;
+	height: 1.8rem;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+#termChoice select{
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+	font-size: 1rem;
+	font-family: "幼圆";
+}
+.scoreInfo{
+	position: relative;
+	width: 100%;
+}
+#show{
+	position: absolute;
+	width: 85%;
+	/*height: 100%;*/
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: lightgreen;
+}
+#scoreShow{
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	font-size: 1.2rem;
+}
+.project{
+	width: 100%;
+	height: 3rem;
+}
+.project>div:nth-child(1){
+	float: left;
+	margin-top: 1rem;
+}
+.project>div:nth-child(2){
+	float: right;
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+.score{
+	width: 100%;
+	height: 4.5rem;
+}
+.score ul{
+	width: 45%;
+	margin-left: 0.8rem;
+	/*margin-right: 1rem;*/
+	margin-top: 0.5rem;
+	float: left;
+}
+.score ul li{
+	padding-bottom: 0.5rem;
+	list-style: none;
+}
+.state{
+	width: 100%;
+	height: 1.5rem;
+}
+.state>div{
+	margin-right: 1rem;
+	float: right;
+}
